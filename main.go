@@ -1,9 +1,9 @@
 package main
 
 import (
-	"Redis/redis_repository"
-	"Redis/redis_repository/models"
 	"fmt"
+	"github.com/IvaCheMih/Redis_pattern/redis_repository"
+	"github.com/IvaCheMih/Redis_pattern/redis_repository/models"
 	"github.com/redis/go-redis/v9"
 	"log"
 )

@@ -1,4 +1,4 @@
-module Redis
+module github.com/IvaCheMih/Redis_pattern
 
 go 1.22
 

@@ -1,10 +1,10 @@
 package redis_repository
 
 import (
-	"Redis/redis_repository/models"
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/IvaCheMih/Redis_pattern/redis_repository/models"
 	"github.com/redis/go-redis/v9"
 	"log"
 	"strconv"

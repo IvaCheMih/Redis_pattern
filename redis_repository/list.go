@@ -1,9 +1,9 @@
 package redis_repository
 
 import (
-	"Redis/redis_repository/models"
 	"encoding/json"
 	"fmt"
+	"github.com/IvaCheMih/Redis_pattern/redis_repository/models"
 )
 
 func (s *RedisService) SetList(key string, goods []models.Good) error {
